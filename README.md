@@ -13,6 +13,7 @@ Experimental results with different Environments.
 * [RL_Q-Learning_E-2](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning_E2)
 * [RL_Q-Learning_E-3](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning_E3)
 
+<br/>
 ### RL Q-Learning Environment-1. Experimental results
 #### Environment-1 with mobile robot, goal and obstacles
 ![RL_Q-Learning_E-1](images/Environment-1.png)
@@ -25,6 +26,7 @@ Experimental results with different Environments.
 <br/>Looking at the values of the table we can see the decision for the next action made by agent (mobile robot). The sequence of final actions to reach the goal after the Q-table is filled with knowledge is the following: *down-right-down-down-down-right-down-right-down-right-down-down-right-right-up-up.*
 <br/>During the experiment with Q-learning algorithm the found shortest route to reach the goal for the environment-1 consist of 16 steps and the found longest rout to reach the goal consists of 185 steps.
 
+<br/>
 ### RL Q-Learning Environment-2. Experimental results
 #### Bigger environment-2 with more obstacles
 ![RL_Q-Learning_E-2](images/Environment-2.png)
@@ -37,7 +39,7 @@ Experimental results with different Environments.
 <br/>
 
 
-
+<br/>
 ### RL Q-Learning Environment-3. Experimental results
 ![RL_Q-Learning_E-3](images/Environment-3.png)
 ![RL_Q-Learning_c-3](images/Charts-3.png)
