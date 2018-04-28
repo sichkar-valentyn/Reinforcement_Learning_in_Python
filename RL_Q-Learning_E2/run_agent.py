@@ -1,5 +1,15 @@
-# File - run_agent.py
-# Running algorithm
+# File: run_agent.py
+# Description: Running algorithm
+# Environment: PyCharm and Anaconda environment
+#
+# MIT License
+# Copyright (c) 2018 Valentyn N Sichkar
+# github.com/sichkar-valentyn
+#
+# Reference to:
+# [1] Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python (date of access: XX.XX.XXXX)
+
+
 
 # Importing classes
 from env import Environment
