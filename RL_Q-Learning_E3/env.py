@@ -1,10 +1,17 @@
-# File - env.py
-# Building the environment
-#
-# Reinforcement Learning, Q-Learning with tables
-# Building the environment for the Mobile Robot to explore
+# File: env.py
+# Description: Building the environment for the Mobile Robot to explore
 # Agent - Mobile Robot
 # Obstacles - 'road closed', 'trees', 'traffic lights', 'buildings'
+# Environment: PyCharm and Anaconda environment
+#
+# MIT License
+# Copyright (c) 2018 Valentyn N Sichkar
+# github.com/sichkar-valentyn
+#
+# Reference to:
+# [1] Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python (date of access: XX.XX.XXXX)
+
+
 
 # Importing libraries
 import numpy as np  # To deal with data in form of matrices
