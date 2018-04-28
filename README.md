@@ -9,9 +9,9 @@ RL Algorithms implemented in Python for the task of global path planning for mob
 Experimental results with different Environments.
 
 ## Content
-* [RL_Q-Learning_E-1](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning/RL_Q-Learning_E1)
-* [RL_Q-Learning_E-2](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning/RL_Q-Learning_E2)
-* [RL_Q-Learning_E-3](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning/RL_Q-Learning_E3)
+* [RL_Q-Learning_E-1](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning_E1)
+* [RL_Q-Learning_E-2](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning_E2)
+* [RL_Q-Learning_E-3](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning_E3)
 
 ### RL Q-Learning Environment-1. Experimental results
 ![RL_Q-Learning_E-1](images/Environment-1.png)
