@@ -38,15 +38,12 @@ Experimental results with different Environments.
 
 #### Final Q-table with values from the final shortest route for environment-1
 ![RL_Q-Learning_T-2](images/Q-Table-E-2.png)
-<br/>
-
-
 
 <br/>
 
 ### RL Q-Learning Environment-3. Experimental results
 ![RL_Q-Learning_E-3](images/Environment-3.png)
-![RL_Q-Learning_c-3](images/Charts-3.png)
+
 
 ## MIT License
 ## Copyright (c) 2018 Valentyn N Sichkar
