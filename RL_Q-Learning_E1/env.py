@@ -197,7 +197,7 @@ class Environment(tk.Tk, object):
         # Updating next state according to the action
         # Action 'up'
         if action == 0:
-            if state[1] > pixels:
+            if state[1] >= pixels:
                 base_action[1] -= pixels
         # Action 'down'
         elif action == 1:
@@ -209,7 +209,7 @@ class Environment(tk.Tk, object):
                 base_action[0] += pixels
         # Action left
         elif action == 3:
-            if state[0] > pixels:
+            if state[0] >= pixels:
                 base_action[0] -= pixels
 
         # Moving the agent according to the action
