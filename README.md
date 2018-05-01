@@ -42,6 +42,7 @@ Experimental results with different Environments.
 <br/>
 
 ### RL Q-Learning Environment-3. Experimental results
+#### Super complex environment-3 with a lot of obstacles
 ![RL_Q-Learning_E-3](images/Environment-3.png)
 
 
