@@ -1,5 +1,5 @@
 # File: env.py
-# Description: Building the environment for the Mobile Robot to explore
+# Description: Building the environment-3 for the Mobile Robot to explore
 # Agent - Mobile Robot
 # Obstacles - 'road closed', 'trees', 'traffic lights', 'buildings'
 # Environment: PyCharm and Anaconda environment
