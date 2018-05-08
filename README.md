@@ -17,6 +17,7 @@ Experimental results with different Environments.
 
 ### RL Q-Learning Environment-1. Experimental results
 #### Environment-1 with mobile robot, goal and obstacles
+![RL_Q-Learning_E-1](images/Environment-1.gif)
 ![RL_Q-Learning_E-1](images/Environment-1.png)
 
 #### Q-learning algorithm resulted chart for the environment-1 represents number of episodes via number of steps and number of episodes via cost for each episode
