@@ -6,7 +6,8 @@ Implementing Reinforcement Learning Algorithms for global path planning of mobil
 
 ## Description
 RL Algorithms implemented in Python for the task of global path planning for mobile robot.
-Experimental results with different Environments.
+<br/>Experimental results with different Environments.
+<br/>Code is supported with a lot of comments. It will guide you step by step through entire idea of implementation.
 
 ## Content
 * [RL_Q-Learning_E-1](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning_E1)
