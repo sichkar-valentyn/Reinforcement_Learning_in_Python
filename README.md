@@ -54,6 +54,10 @@ RL Algorithms implemented in Python for the task of global path planning for mob
 #### Super complex environment-3 with a lot of obstacles
 ![RL_Q-Learning_E-3](images/Environment-3.png)
 
+<br/>
+
+### Comparison analysis of Q-Learning and Sarsa algorithms
+_Released at June 25th_
 
 ## MIT License
 ## Copyright (c) 2018 Valentyn N Sichkar
