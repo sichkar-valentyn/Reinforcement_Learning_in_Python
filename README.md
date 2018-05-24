@@ -57,7 +57,7 @@ RL Algorithms implemented in Python for the task of global path planning for mob
 <br/>
 
 ### Comparison analysis of Q-Learning and Sarsa algorithms
-_Released at June 25th_
+_Released at June 21th_
 
 ## MIT License
 ## Copyright (c) 2018 Valentyn N Sichkar
