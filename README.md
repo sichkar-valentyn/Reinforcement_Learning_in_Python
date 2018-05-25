@@ -59,12 +59,12 @@ Bigger environment-2 with more obstacles
 
 ![RL_Q-Learning_E-2](images/Environment-2.png)
 
-#### <a name="Q-learning algorithm resulted chart for the environment-2">Q-learning algorithm resulted chart for the environment-2</a>
+### <a name="Q-learning algorithm resulted chart for the environment-2">Q-learning algorithm resulted chart for the environment-2</a>
 Represents number of episodes via number of steps and number of episodes via cost for each episode
 
 ![RL_Q-Learning_C-2](images/Charts-2.png)
 
-#### <a name="Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a>
+### <a name="Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a>
 ![RL_Q-Learning_T-2](images/Q-Table-E-2.png)
 
 <br/>
