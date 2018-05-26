@@ -10,12 +10,13 @@ RL Algorithms implemented in Python for the task of global path planning for mob
 <br/>Code is supported with a lot of comments. It will guide you step by step through entire idea of implementation.
 <br/>
 <br/>Each example consists of three files:
-<br/>env.py - building an environment with obstacles.
-<br/>agent_brain.py - implementation of algorithm itself.
-<br/>run_agent.py - running the experiments.
+
+* env.py - building an environment with obstacles.
+* agent_brain.py - implementation of algorithm itself.
+* run_agent.py - running the experiments.
 
 ## Content
-Codes:
+Codes (it'll send you to appropriate folder):
 * [RL_Q-Learning_E-1](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning_E1)
 * [RL_Q-Learning_E-2](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning_E2)
 * [RL_Q-Learning_E-3](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning_E3)
@@ -23,7 +24,7 @@ Codes:
 * [RL_Sarsa_E-2](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Sarsa_E2)
 
 <br/>
-Experimental results:
+Experimental results (figures and tables on this page):
 
 * <a href="#RL Q-Learning Environment-1. Experimental results">RL Q-Learning Environment-1. Experimental results</a>
 * <a href="#Q-learning algorithm resulted chart for the environment-1">Q-learning algorithm resulted chart for the environment-1</a>
