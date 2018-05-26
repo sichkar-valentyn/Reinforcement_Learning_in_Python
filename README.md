@@ -11,9 +11,9 @@ RL Algorithms implemented in Python for the task of global path planning for mob
 <br/>
 <br/>Each example consists of three files:
 
-* env.py - building an environment with obstacles.
-* agent_brain.py - implementation of algorithm itself.
-* run_agent.py - running the experiments.
+* _env.py_ - building an environment with obstacles.
+* _agent_brain.py_ - implementation of algorithm itself.
+* _run_agent.py_ - running the experiments.
 
 ## Content
 Codes (it'll send you to appropriate folder):
