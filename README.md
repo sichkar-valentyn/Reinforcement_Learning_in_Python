@@ -1,5 +1,5 @@
 # Reinforcement Learning in Python
-Implementing Reinforcement Learning Algorithms for global path planning of mobile robot
+Implementing Reinforcement Learning Algorithms for global path planning in tasks of mobile robot navigation
 
 ### Reference to:
 [1] Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python (date of access: XX.XX.XXXX)
