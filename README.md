@@ -78,7 +78,7 @@ Super complex environment-3 with a lot of obstacles
 <br/>
 
 ### <a name="Comparison analysis of Q-Learning and Sarsa algorithms">Comparison analysis of Q-Learning and Sarsa algorithms</a>
-_Released at June 21th_
+![RQ-learning_via_Sarsa](images/Q-learning_via_Sarsa.png)
 
 ## MIT License
 ## Copyright (c) 2018 Valentyn N Sichkar
