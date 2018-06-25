@@ -1,5 +1,5 @@
 # Reinforcement Learning in Python
-Implementing Reinforcement Learning (RL) Algorithms for global path planning in tasks of mobile robot navigation
+Implementing Reinforcement Learning (RL) Algorithms for global path planning in tasks of mobile robot navigation.
 
 ### Reference to:
 [1] Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python (date of access: XX.XX.XXXX)
@@ -17,7 +17,7 @@ The environment:
 
 Goal is to learn how to take actions in order to maximize the reward. The objective function is as following:
 
-Q[s, a] = Q[s, a] + λ * (r + γ * max (Q[s_, a_]) – Q[s, a]),
+<b>Q[s, a] = Q[s, a] + λ * (r + γ * max (Q[s_, a_]) – Q[s, a]),</b>
 
 where,
 <br/>s – current position of the agent,
