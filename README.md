@@ -1,12 +1,36 @@
 # Reinforcement Learning in Python
-Implementing Reinforcement Learning Algorithms for global path planning in tasks of mobile robot navigation
+Implementing Reinforcement Learning (RL) Algorithms for global path planning in tasks of mobile robot navigation
 
 ### Reference to:
 [1] Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python (date of access: XX.XX.XXXX)
 
 ## Description
-RL Algorithms implemented in Python for the task of global path planning for mobile robot.
-<br/>Experimental results with different Environments.
+RL Algorithms implemented in Python for the task of global path planning for mobile robot. Such system is said to have feedback. The agent acts on the environment, and the environment acts on the agent. At each step the agent:
+* Executes action.
+* Receives observation (new state).
+* Receives reward.
+
+The environment:
+* Receives action.
+* Emits observation (new state).
+* Emits reward.
+
+Goal is to learn how to take actions in order to maximize the reward. The objective function is as following:
+
+Q[s, a] = Q[s, a] + λ * (r + γ * max (Q[s_, a_]) – Q[s, a]),
+
+where,
+<br/>s – current position of the agent,
+<br/>a – current action,
+<br/>λ – learning rate,
+<br/>r – reward that is got in the current position,
+<br/>γ – gamma (reward decay, discount factor),
+<br/>s_ - next chosen position according to the next chosen action,
+<br/>a_ - next chosen action.
+
+The major component of the RL method is the table of weights - Q-table of the system state. Matrix Q is a set of all possible states of the system and the system response weights to different actions. During trying to go through the given environment, mobile robot learns how to avoid obstacles and find the path to the destination point. As a result, the Q-table is built. Looking at the values of the table it is possible to see the decision for the next action made by agent (mobile robot).
+
+<br/>Experimental results with different Environments sre shown and described below.
 <br/>Code is supported with a lot of comments. It will guide you step by step through entire idea of implementation.
 <br/>
 <br/>Each example consists of three files:
