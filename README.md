@@ -17,9 +17,11 @@ The environment:
 
 Goal is to learn how to take actions in order to maximize the reward. The objective function is as following:
 
-<b>Q[s_, a_] = Q[s, a] + λ * (r + γ * max (Q[s_, a_]) – Q[s, a]),</b>
+<b>Q_[s_, a_] = Q[s, a] + λ * (r + γ * max(Q_[s_, a_]) – Q[s, a]),</b>
 
 where,
+<br/><b>Q_[s_, a_]</b> - value of the objective function on the next step,
+<br/><b>max(Q_[s_, a_]) – Q[s, a])</b> - choosing maximum value from the possible next steps,
 <br/><b>s</b> – current position of the agent,
 <br/><b>a</b> – current action,
 <br/><b>λ</b> – learning rate,
