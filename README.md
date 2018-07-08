@@ -21,6 +21,7 @@ Goal is to learn how to take actions in order to maximize the reward. The object
 
 where,
 <br/><b>Q_[s_, a_]</b> - value of the objective function on the next step,
+<br/><b>Q[s, a]</b> - value of the objective function on the current position,
 <br/><b>max(Q_[s_, a_]) – Q[s, a])</b> - choosing maximum value from the possible next steps,
 <br/><b>s</b> – current position of the agent,
 <br/><b>a</b> – current action,
