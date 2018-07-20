@@ -1,8 +1,9 @@
 # Reinforcement Learning in Python
 Implementing Reinforcement Learning (RL) Algorithms for global path planning in tasks of mobile robot navigation. Comparison analysis of Q-learning and Sarsa algorithms fo the environment with cliff, mouse and cheese.
+<br/>![DOI](https://zenodo.org/badge/131179151.svg)
 
 ### Reference to:
-[1] Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python (date of access: XX.XX.XXXX)
+Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning // GitHub platform. DOI: 10.5281/zenodo.1317899
 
 ## Description
 RL Algorithms implemented in Python for the task of global path planning for mobile robot. Such system is said to have feedback. The agent acts on the environment, and the environment acts on the agent. At each step the agent:
@@ -107,8 +108,10 @@ Super complex environment-3 with a lot of obstacles
 ### <a name="Comparison analysis of Q-Learning and Sarsa algorithms">Comparison analysis of Q-Learning and Sarsa algorithms</a>
 ![RQ-learning_via_Sarsa](images/Q-learning_via_Sarsa.png)
 
-## MIT License
-## Copyright (c) 2018 Valentyn N Sichkar
-## github.com/sichkar-valentyn
+<br/>
+
+### MIT License
+### Copyright (c) 2018 Valentyn N Sichkar
+### github.com/sichkar-valentyn
 ### Reference to:
-[1] Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning // GitHub platform [Electronic resource]. URL: https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python (date of access: XX.XX.XXXX)
+Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning // GitHub platform. DOI: 10.5281/zenodo.1317899
