@@ -15,46 +15,167 @@
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
+          <a id="forkme_banner" href="https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python">View on GitHub</a>
 
           <h1 id="project_title">Reinforcement Learning in Python</h1>
-          <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+          <h2 id="project_tagline">Implementing Reinforcement Learning, namely Q-learning and Sarsa algorithms, for global path planning of mobile robot in unknown environment with obstacles. Comparison analysis of Q-learning and Sarsa</h2>
 
-          {% if site.show_downloads %}
-            <section id="downloads">
-              <a class="zip_download_link" href="{{ site.github.zip_url }}">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="{{ site.github.tar_url }}">Download this project as a tar.gz file</a>
-            </section>
-          {% endif %}
+          
         </header>
     </div>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        {{ content }}
+        <h1 id="reinforcement-learning-in-python">Reinforcement Learning in Python</h1>
+<p>Implementing Reinforcement Learning (RL) Algorithms for global path planning in tasks of mobile robot navigation. Comparison analysis of Q-learning and Sarsa algorithms fo the environment with cliff, mouse and cheese.
+<br /><a href="https://doi.org/10.5281/zenodo.1317898"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1317898.svg" alt="DOI" /></a></p>
+
+<h3 id="reference-to">Reference to:</h3>
+<p>Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning // GitHub platform. DOI: 10.5281/zenodo.1317898</p>
+
+<h3 id="related-works">Related works:</h3>
+<ul>
+  <li>
+    <p>The research results for Neural Network Knowledge Based system for the tasks of collision avoidance is put in separate repository and is available here: https://github.com/sichkar-valentyn/Matlab_implementation_of_Neural_Networks</p>
+  </li>
+  <li>
+    <p>The study of Neural Networks for Computer Vision in autonomous vehicles and robotics is put in separate repository and is available here: https://github.com/sichkar-valentyn/Neural_Networks_for_Computer_Vision</p>
+  </li>
+</ul>
+
+<h2 id="description">Description</h2>
+<p>RL Algorithms implemented in Python for the task of global path planning for mobile robot. Such system is said to have feedback. The agent acts on the environment, and the environment acts on the agent. At each step the agent:</p>
+<ul>
+  <li>Executes action.</li>
+  <li>Receives observation (new state).</li>
+  <li>Receives reward.</li>
+</ul>
+
+<p>The environment:</p>
+<ul>
+  <li>Receives action.</li>
+  <li>Emits observation (new state).</li>
+  <li>Emits reward.</li>
+</ul>
+
+<p>Goal is to learn how to take actions in order to maximize the reward. The objective function is as following:</p>
+
+<p><strong>Q_[s_, a_] = Q[s, a] + λ * (r + γ * max(Q_[s_, a_]) – Q[s, a]),</strong></p>
+
+<p>where,
+<br /><strong>Q_[s_, a_]</strong> - value of the objective function on the next step,
+<br /><strong>Q[s, a]</strong> - value of the objective function on the current position,
+<br /><strong>max(Q_[s_, a_]) – Q[s, a])</strong> - choosing maximum value from the possible next steps,
+<br /><strong>s</strong> – current position of the agent,
+<br /><strong>a</strong> – current action,
+<br /><strong>λ</strong> – learning rate,
+<br /><strong>r</strong> – reward that is got in the current position,
+<br /><strong>γ</strong> – gamma (reward decay, discount factor),
+<br /><strong>s_</strong> - next chosen position according to the next chosen action,
+<br /><strong>a_</strong> - next chosen action.</p>
+
+<p>The major component of the RL method is the table of weights - <strong>Q-table</strong> of the system state. <strong>Matrix Q</strong> is a set of all possible states of the system and the system response weights to different actions. During trying to go through the given environment, mobile robot learns how to avoid obstacles and find the path to the destination point. As a result, the <strong>Q-table</strong> is built. Looking at the values of the table it is possible to see the decision for the next action made by agent (mobile robot).</p>
+
+<p><br />Experimental results with different Environments sre shown and described below.
+<br />Code is supported with a lot of comments. It will guide you step by step through entire idea of implementation.
+<br />
+<br />Each example consists of three files:</p>
+
+<ul>
+  <li><em>env.py</em> - building an environment with obstacles.</li>
+  <li><em>agent_brain.py</em> - implementation of algorithm itself.</li>
+  <li><em>run_agent.py</em> - running the experiments.</li>
+</ul>
+
+<h2 id="content">Content</h2>
+<p>Codes (it’ll send you to appropriate folder on GitHub):</p>
+<ul>
+  <li><a href="https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning_E1">RL_Q-Learning_E-1</a></li>
+  <li><a href="https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning_E2">RL_Q-Learning_E-2</a></li>
+  <li><a href="https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Q-Learning_E3">RL_Q-Learning_E-3</a></li>
+  <li><a href="https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Sarsa_E1">RL_Sarsa_E-1</a></li>
+  <li><a href="https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/tree/master/RL_Sarsa_E2">RL_Sarsa_E-2</a></li>
+</ul>
+
+<p><br />
+Experimental results (figures and tables on this page):</p>
+
+<ul>
+  <li><a href="#RL Q-Learning Environment-1. Experimental results">RL Q-Learning Environment-1. Experimental results</a></li>
+  <li><a href="#Q-learning algorithm resulted chart for the environment-1">Q-learning algorithm resulted chart for the environment-1</a></li>
+  <li><a href="#Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a></li>
+  <li><a href="#RL Q-Learning Environment-2. Experimental results">RL Q-Learning Environment-2. Experimental results</a></li>
+  <li><a href="#Q-learning algorithm resulted chart for the environment-2">Q-learning algorithm resulted chart for the environment-2</a></li>
+  <li><a href="#Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a></li>
+  <li><a href="#RL Q-Learning Environment-3. Experimental results">RL Q-Learning Environment-3. Experimental results</a></li>
+  <li><a href="#Comparison analysis of Q-Learning and Sarsa algorithms">Comparison analysis of Q-Learning and Sarsa algorithms</a></li>
+</ul>
+
+<p><br /></p>
+
+<h3 id="rl-q-learning-environment-1-experimental-results"><a name="RL Q-Learning Environment-1. Experimental results">RL Q-Learning Environment-1. Experimental results</a></h3>
+<p>Environment-1 with mobile robot, goal and obstacles</p>
+
+<p><img src="/Reinforcement_Learning_in_Python/images/Environment-1.gif" alt="Environment-1" width=362 height=391 /> <img src="/Reinforcement_Learning_in_Python/images/Environment-1.gif" alt="Environment-1" width=362 height=391 /></p>
+
+<h3 id="q-learning-algorithm-resulted-chart-for-the-environment-1"><a name="Q-learning algorithm resulted chart for the environment-1">Q-learning algorithm resulted chart for the environment-1</a></h3>
+<p>Represents number of episodes via number of steps and number of episodes via cost for each episode</p>
+
+<p><img src="/Reinforcement_Learning_in_Python/images/Charts-1.png" alt="RL_Q-Learning_C-1" /></p>
+
+<h3 id="final-q-table-with-values-from-the-final-shortest-route-for-environment-1"><a name="Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a></h3>
+<p><img src="/Reinforcement_Learning_in_Python/images/Q-Table-E-1.png" alt="RL_Q-Learning_T-1" />
+<br />Looking at the values of the table we can see the decision for the next action made by agent (mobile robot). The sequence of final actions to reach the goal after the Q-table is filled with knowledge is the following: <em>down-right-down-down-down-right-down-right-down-right-down-down-right-right-up-up.</em>
+<br />During the experiment with Q-learning algorithm the found shortest route to reach the goal for the environment-1 consist of 16 steps and the found longest rout to reach the goal consists of 185 steps.</p>
+
+<p><br /></p>
+
+<h3 id="rl-q-learning-environment-2-experimental-results"><a name="RL Q-Learning Environment-2. Experimental results">RL Q-Learning Environment-2. Experimental results</a></h3>
+<p>Bigger environment-2 with more obstacles</p>
+
+<p><img src="/Reinforcement_Learning_in_Python/images/Environment-2.png" alt="RL_Q-Learning_E-2" /></p>
+
+<h3 id="q-learning-algorithm-resulted-chart-for-the-environment-2"><a name="Q-learning algorithm resulted chart for the environment-2">Q-learning algorithm resulted chart for the environment-2</a></h3>
+<p>Represents number of episodes via number of steps and number of episodes via cost for each episode</p>
+
+<p><img src="/Reinforcement_Learning_in_Python/images/Charts-2.png" alt="RL_Q-Learning_C-2" /></p>
+
+<h3 id="final-q-table-with-values-from-the-final-shortest-route-for-environment-1-1"><a name="Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a></h3>
+<p><img src="/Reinforcement_Learning_in_Python/images/Q-Table-E-2.png" alt="RL_Q-Learning_T-2" /></p>
+
+<p><br /></p>
+
+<h3 id="rl-q-learning-environment-3-experimental-results"><a name="RL Q-Learning Environment-3. Experimental results">RL Q-Learning Environment-3. Experimental results</a></h3>
+<p>Super complex environment-3 with a lot of obstacles</p>
+
+<p><img src="/Reinforcement_Learning_in_Python/images/Environment-3.png" alt="RL_Q-Learning_E-3" /></p>
+
+<p><br /></p>
+
+<h3 id="comparison-analysis-of-q-learning-and-sarsa-algorithms"><a name="Comparison analysis of Q-Learning and Sarsa algorithms">Comparison analysis of Q-Learning and Sarsa algorithms</a></h3>
+<p><img src="/Reinforcement_Learning_in_Python/images/Q-learning_via_Sarsa.png" alt="RQ-learning_via_Sarsa" /></p>
+
+<p><br /></p>
+
+<h3 id="mit-license">MIT License</h3>
+<h3 id="copyright-c-2018-valentyn-n-sichkar">Copyright (c) 2018 Valentyn N Sichkar</h3>
+<h3 id="githubcomsichkar-valentyn">github.com/sichkar-valentyn</h3>
+<h3 id="reference-to-1">Reference to:</h3>
+<p>Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning // GitHub platform. DOI: 10.5281/zenodo.1317898</p>
+
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        {% if site.github.is_project_page %}
-        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+        
+        <p class="copyright">"Reinforcement Learning in Python" maintained by <a href="https://github.com/sichkar-valentyn">sichkar-valentyn</a></p>
+                
       </footer>
     </div>
 
-    {% if site.google_analytics %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', '{{ site.google_analytics }}', 'auto');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
+    
   </body>
 </html>
