@@ -79,7 +79,7 @@ Environment-1 with mobile robot, goal and obstacles
 ### <a name="Q-learning algorithm resulted chart for the environment-1">Q-learning algorithm resulted chart for the environment-1</a>
 Represents number of episodes via number of steps and number of episodes via cost for each episode
 
-![RL_Q-Learning_C-1](images/Charts-1.png)
+![RL_Q-Learning_C-1](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/blob/master/images/Charts-1.png)
 
 ### <a name="Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a>
 ![RL_Q-Learning_T-1](images/Q-Table-E-1.png)
