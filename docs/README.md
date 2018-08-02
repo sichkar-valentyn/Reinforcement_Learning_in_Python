@@ -73,13 +73,13 @@ Experimental results (figures and tables on this page):
 ### <a name="RL Q-Learning Environment-1. Experimental results">RL Q-Learning Environment-1. Experimental results</a>
 Environment-1 with mobile robot, goal and obstacles
 
-<img src="https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/blob/master/images/Environment-1.gif" alt="RL_Q-Learning_E-1" width=362 height=391> <img src="https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/blob/master/images/Environment-1.png" alt="RL_Q-Learning_E-1" width=362 height=391>
+<img src="images/Environment-1.gif" alt="RL_Q-Learning_E-1" width=362 height=391> <img src="images/Environment-1.png" alt="RL_Q-Learning_E-1" width=362 height=391>
 
 
 ### <a name="Q-learning algorithm resulted chart for the environment-1">Q-learning algorithm resulted chart for the environment-1</a>
 Represents number of episodes via number of steps and number of episodes via cost for each episode
 
-![RL_Q-Learning_C-1](https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/blob/master/images/Charts-1.png)
+![RL_Q-Learning_C-1](images/Charts-1.png)
 
 ### <a name="Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a>
 ![RL_Q-Learning_T-1](images/Q-Table-E-1.png)
