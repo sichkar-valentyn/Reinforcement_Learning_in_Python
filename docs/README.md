@@ -73,7 +73,7 @@ Experimental results (figures and tables on this page):
 ### <a name="RL Q-Learning Environment-1. Experimental results">RL Q-Learning Environment-1. Experimental results</a>
 Environment-1 with mobile robot, goal and obstacles
 
-<img src="images/Environment-1.gif" alt="RL_Q-Learning_E-1" width=362 height=391> <img src="images/Environment-1.png" alt="RL_Q-Learning_E-1" width=362 height=391>
+![Environment-1](images/Environment-1.gif) <img src="images/Environment-1.png" alt="RL_Q-Learning_E-1" width=362 height=391>
 
 
 ### <a name="Q-learning algorithm resulted chart for the environment-1">Q-learning algorithm resulted chart for the environment-1</a>
