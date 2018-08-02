@@ -26,18 +26,18 @@ Goal is to learn how to take actions in order to maximize the reward. The object
 **Q_[s_, a_] = Q[s, a] + λ * (r + γ * max(Q_[s_, a_]) – Q[s, a]),**
 
 where,
-<br/><b>Q_[s_, a_]</b> - value of the objective function on the next step,
-<br/><b>Q[s, a]</b> - value of the objective function on the current position,
-<br/><b>max(Q_[s_, a_]) – Q[s, a])</b> - choosing maximum value from the possible next steps,
-<br/><b>s</b> – current position of the agent,
-<br/><b>a</b> – current action,
-<br/><b>λ</b> – learning rate,
-<br/><b>r</b> – reward that is got in the current position,
-<br/><b>γ</b> – gamma (reward decay, discount factor),
-<br/><b>s_</b> - next chosen position according to the next chosen action,
-<br/><b>a_</b> - next chosen action. 
+<br/>**Q_[s_, a_]** - value of the objective function on the next step,
+<br/>**Q[s, a]** - value of the objective function on the current position,
+<br/>**max(Q_[s_, a_]) – Q[s, a])** - choosing maximum value from the possible next steps,
+<br/>**s** – current position of the agent,
+<br/>**a** – current action,
+<br/>**λ** – learning rate,
+<br/>**r** – reward that is got in the current position,
+<br/>**γ** – gamma (reward decay, discount factor),
+<br/>**s_** - next chosen position according to the next chosen action,
+<br/>**a_** - next chosen action. 
 
-The major component of the RL method is the table of weights - <b>Q-table</b> of the system state. <b>Matrix Q</b> is a set of all possible states of the system and the system response weights to different actions. During trying to go through the given environment, mobile robot learns how to avoid obstacles and find the path to the destination point. As a result, the <b>Q-table</b> is built. Looking at the values of the table it is possible to see the decision for the next action made by agent (mobile robot).
+The major component of the RL method is the table of weights - **Q-table** of the system state. **Matrix Q** is a set of all possible states of the system and the system response weights to different actions. During trying to go through the given environment, mobile robot learns how to avoid obstacles and find the path to the destination point. As a result, the **Q-table** is built. Looking at the values of the table it is possible to see the decision for the next action made by agent (mobile robot).
 
 <br/>Experimental results with different Environments sre shown and described below.
 <br/>Code is supported with a lot of comments. It will guide you step by step through entire idea of implementation.
@@ -73,7 +73,7 @@ Experimental results (figures and tables on this page):
 ### <a name="RL Q-Learning Environment-1. Experimental results">RL Q-Learning Environment-1. Experimental results</a>
 Environment-1 with mobile robot, goal and obstacles
 
-<img src="images/Environment-1.gif" alt="RL_Q-Learning_E-1" width=362 height=391> <img src="images/Environment-1.png" alt="RL_Q-Learning_E-1" width=362 height=391>
+<img src="https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/blob/master/images/Environment-1.gif" alt="RL_Q-Learning_E-1" width=362 height=391> <img src="https://github.com/sichkar-valentyn/Reinforcement_Learning_in_Python/blob/master/images/Environment-1.png" alt="RL_Q-Learning_E-1" width=362 height=391>
 
 
 ### <a name="Q-learning algorithm resulted chart for the environment-1">Q-learning algorithm resulted chart for the environment-1</a>
