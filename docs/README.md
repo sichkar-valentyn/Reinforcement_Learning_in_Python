@@ -35,7 +35,7 @@ where,
 <br/><b>r</b> – reward that is got in the current position,
 <br/><b>γ</b> – gamma (reward decay, discount factor),
 <br/><b>s_</b> - next chosen position according to the next chosen action,
-<br/><b>a_</b> - next chosen action.
+<br/><b>a_</b> - next chosen action. 
 
 The major component of the RL method is the table of weights - <b>Q-table</b> of the system state. <b>Matrix Q</b> is a set of all possible states of the system and the system response weights to different actions. During trying to go through the given environment, mobile robot learns how to avoid obstacles and find the path to the destination point. As a result, the <b>Q-table</b> is built. Looking at the values of the table it is possible to see the decision for the next action made by agent (mobile robot).
 
