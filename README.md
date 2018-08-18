@@ -10,6 +10,8 @@ Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning /
 
 * The research results for Neural Network Knowledge Based system for the tasks of collision avoidance is put in separate repository and is available here: https://github.com/sichkar-valentyn/Matlab_implementation_of_Neural_Networks
 
+* The study of Semantic Web languages OWL and RDF for Knowledge representation of Alarm-Warning System is put in separate repository and is available here: https://github.com/sichkar-valentyn/Knowledge_Base_Represented_by_Semantic_Web_Language
+
 * The study of Neural Networks for Computer Vision in autonomous vehicles and robotics is put in separate repository and is available here: https://github.com/sichkar-valentyn/Neural_Networks_for_Computer_Vision
 
 ## Description
@@ -77,11 +79,14 @@ Environment-1 with mobile robot, goal and obstacles
 
 <img src="images/Environment-1.gif" alt="RL_Q-Learning_E-1" width=362 height=391> <img src="images/Environment-1.png" alt="RL_Q-Learning_E-1" width=362 height=391>
 
+<br/>
 
 ### <a name="Q-learning algorithm resulted chart for the environment-1">Q-learning algorithm resulted chart for the environment-1</a>
 Represents number of episodes via number of steps and number of episodes via cost for each episode
 
 ![RL_Q-Learning_C-1](images/Charts-1.png)
+
+<br/>
 
 ### <a name="Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a>
 ![RL_Q-Learning_T-1](images/Q-Table-E-1.png)
@@ -95,10 +100,14 @@ Bigger environment-2 with more obstacles
 
 ![RL_Q-Learning_E-2](images/Environment-2.png)
 
+<br/>
+
 ### <a name="Q-learning algorithm resulted chart for the environment-2">Q-learning algorithm resulted chart for the environment-2</a>
 Represents number of episodes via number of steps and number of episodes via cost for each episode
 
 ![RL_Q-Learning_C-2](images/Charts-2.png)
+
+<br/>
 
 ### <a name="Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a>
 ![RL_Q-Learning_T-2](images/Q-Table-E-2.png)
