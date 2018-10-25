@@ -63,65 +63,65 @@ Codes (it'll send you to appropriate folder):
 <br/>
 Experimental results (figures and tables on this page):
 
-* <a href="#RL Q-Learning Environment-1. Experimental results">RL Q-Learning Environment-1. Experimental results</a>
-* <a href="#Q-learning algorithm resulted chart for the environment-1">Q-learning algorithm resulted chart for the environment-1</a>
-* <a href="#Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a>
-* <a href="#RL Q-Learning Environment-2. Experimental results">RL Q-Learning Environment-2. Experimental results</a>
-* <a href="#Q-learning algorithm resulted chart for the environment-2">Q-learning algorithm resulted chart for the environment-2</a>
-* <a href="#Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a>
-* <a href="#RL Q-Learning Environment-3. Experimental results">RL Q-Learning Environment-3. Experimental results</a>
-* <a href="#Comparison analysis of Q-Learning and Sarsa algorithms">Comparison analysis of Q-Learning and Sarsa algorithms</a>
+* [RL Q-Learning Environment-1. Experimental results](#rl-q-learning-environment-1-experimental-results)
+* [Q-learning algorithm resulted chart for the environment-1](#q-learning-algorithm-resulted-chart-for-the-environment-1)
+* [Final Q-table with values from the final shortest route for environment-1](#final-q-table-with-values-from-the-final-shortest-route-for-environment-1)
+* [RL Q-Learning Environment-2. Experimental results](#rl-q-learning-environment-2-experimental-results)
+* [Q-learning algorithm resulted chart for the environment-2](#q-learning-algorithm-resulted-chart-for-the-environment-2)
+* [Final Q-table with values from the final shortest route for environment-1](#final-q-table-with-values-from-the-final-shortest-route-for-environment-1)
+* [RL Q-Learning Environment-3. Experimental results](#rl-q-learning-environment-3-experimental-results)
+* [Comparison analysis of Q-Learning and Sarsa algorithms](#comparison-analysis-of-q-learning-and-sarsa-algorithms)
 
 <br/>
 
-### <a name="RL Q-Learning Environment-1. Experimental results">RL Q-Learning Environment-1. Experimental results</a>
+### <a id="rl-q-learning-environment-1-experimental-results">RL Q-Learning Environment-1. Experimental results</a>
 Environment-1 with mobile robot, goal and obstacles
 
 <img src="images/Environment-1.gif" alt="RL_Q-Learning_E-1" width=362 height=391> <img src="images/Environment-1.png" alt="RL_Q-Learning_E-1" width=362 height=391>
 
 <br/>
 
-### <a name="Q-learning algorithm resulted chart for the environment-1">Q-learning algorithm resulted chart for the environment-1</a>
+### <a id="q-learning-algorithm-resulted-chart-for-the-environment-1">Q-learning algorithm resulted chart for the environment-1</a>
 Represents number of episodes via number of steps and number of episodes via cost for each episode
 
 ![RL_Q-Learning_C-1](images/Charts-1.png)
 
 <br/>
 
-### <a name="Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a>
+### <a id="final-q-table-with-values-from-the-final-shortest-route-for-environment-1">Final Q-table with values from the final shortest route for environment-1</a>
 ![RL_Q-Learning_T-1](images/Q-Table-E-1.png)
 <br/>Looking at the values of the table we can see the decision for the next action made by agent (mobile robot). The sequence of final actions to reach the goal after the Q-table is filled with knowledge is the following: *down-right-down-down-down-right-down-right-down-right-down-down-right-right-up-up.*
 <br/>During the experiment with Q-learning algorithm the found shortest route to reach the goal for the environment-1 consist of 16 steps and the found longest rout to reach the goal consists of 185 steps.
 
 <br/>
 
-### <a name="RL Q-Learning Environment-2. Experimental results">RL Q-Learning Environment-2. Experimental results</a>
+### <a id="rl-q-learning-environment-2-experimental-results">RL Q-Learning Environment-2. Experimental results</a>
 Bigger environment-2 with more obstacles
 
 ![RL_Q-Learning_E-2](images/Environment-2.png)
 
 <br/>
 
-### <a name="Q-learning algorithm resulted chart for the environment-2">Q-learning algorithm resulted chart for the environment-2</a>
+### <a id="q-learning-algorithm-resulted-chart-for-the-environment-2">Q-learning algorithm resulted chart for the environment-2</a>
 Represents number of episodes via number of steps and number of episodes via cost for each episode
 
 ![RL_Q-Learning_C-2](images/Charts-2.png)
 
 <br/>
 
-### <a name="Final Q-table with values from the final shortest route for environment-1">Final Q-table with values from the final shortest route for environment-1</a>
+### <a id="final-q-table-with-values-from-the-final-shortest-route-for-environment-1">Final Q-table with values from the final shortest route for environment-1</a>
 ![RL_Q-Learning_T-2](images/Q-Table-E-2.png)
 
 <br/>
 
-### <a name="RL Q-Learning Environment-3. Experimental results">RL Q-Learning Environment-3. Experimental results</a>
+### <a id="rl-q-learning-environment-3-experimental-results">RL Q-Learning Environment-3. Experimental results</a>
 Super complex environment-3 with a lot of obstacles
 
 ![RL_Q-Learning_E-3](images/Environment-3.png)
 
 <br/>
 
-### <a name="Comparison analysis of Q-Learning and Sarsa algorithms">Comparison analysis of Q-Learning and Sarsa algorithms</a>
+### <a id="comparison-analysis-of-q-learning-and-sarsa-algorithms">Comparison analysis of Q-Learning and Sarsa algorithms</a>
 ![RQ-learning_via_Sarsa](images/Q-learning_via_Sarsa.png)
 
 <br/>
