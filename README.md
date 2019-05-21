@@ -3,7 +3,7 @@ Implementing Reinforcement Learning (RL) Algorithms for global path planning in 
 <br/>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1317898.svg)](https://doi.org/10.5281/zenodo.1317898)
 
 ### Courses:
-* Explore course **"Convolutional Neural Networks for Image Classification"** here: https://stepik.org/course/53801/promo
+* Explore the course **"Convolutional Neural Networks for Image Classification"** here: https://stepik.org/course/53801/promo
 
 ### Reference to:
 Valentyn N Sichkar. Reinforcement Learning Algorithms for global path planning // GitHub platform. DOI: 10.5281/zenodo.1317898
