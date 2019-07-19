@@ -2,9 +2,6 @@
 Implementing Reinforcement Learning (RL) Algorithms for global path planning in tasks of mobile robot navigation. Comparison analysis of Q-learning and Sarsa algorithms fo the environment with cliff, mouse and cheese.
 <br/>[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1317898.svg)](https://doi.org/10.5281/zenodo.1317898)
 
-### Courses:
-* Explore the course **"Convolutional Neural Networks for Image Classification"** here: https://stepik.org/course/53801/promo
-
 ### Related works:
 * Sichkar V. N. "Reinforcement Learning Algorithms in Global Path Planning for Mobile Robot", 2019 International Conference on Industrial Engineering, Applications and Manufacturing (ICIEAM), Sochi, Russia, 2019, pp. 1-5. doi: <a href="https://doi.org/10.1109/ICIEAM.2019.8742915" target="_blank">10.1109/ICIEAM.2019.8742915</a> (Full-text available also here <a href="https://www.researchgate.net/profile/Valentyn_Sichkar" target="_blank">ResearchGate.net/profile/Valentyn_Sichkar</a>)
 
