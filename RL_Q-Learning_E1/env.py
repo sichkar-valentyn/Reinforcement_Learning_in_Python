@@ -82,16 +82,16 @@ class Environment(tk.Tk, object):
         img_obstacle2 = Image.open("images/tree1.png")
         self.obstacle2_object = ImageTk.PhotoImage(img_obstacle2)
         # Obstacle type 3 - tree2
-        img_obstacle3 = Image.open("images/tree2.png")
+        img_obstacle3 = Image.open("images/bg.png")
         self.obstacle3_object = ImageTk.PhotoImage(img_obstacle3)
         # Obstacle type 4 - building1
-        img_obstacle4 = Image.open("images/building1.png")
+        img_obstacle4 = Image.open("images/pedestrian.png")
         self.obstacle4_object = ImageTk.PhotoImage(img_obstacle4)
         # Obstacle type 5 - building2
-        img_obstacle5 = Image.open("images/building2.png")
+        img_obstacle5 = Image.open("images/building1.png")
         self.obstacle5_object = ImageTk.PhotoImage(img_obstacle5)
         # Obstacle type 6 - road closed2
-        img_obstacle6 = Image.open("images/road_closed2.png")
+        img_obstacle6 = Image.open("images/road_closed1.png")
         self.obstacle6_object = ImageTk.PhotoImage(img_obstacle6)
         # Obstacle type 7 - road closed3
         img_obstacle7 = Image.open("images/road_closed3.png")
@@ -100,7 +100,7 @@ class Environment(tk.Tk, object):
         img_obstacle8 = Image.open("images/traffic_lights.png")
         self.obstacle8_object = ImageTk.PhotoImage(img_obstacle8)
         # Obstacle type 9 - pedestrian
-        img_obstacle9 = Image.open("images/pedestrian.png")
+        img_obstacle9 = Image.open("images/tree2.png")
         self.obstacle9_object = ImageTk.PhotoImage(img_obstacle9)
         # Obstacle type 10 - shop
         img_obstacle10 = Image.open("images/shop.png")
@@ -114,23 +114,23 @@ class Environment(tk.Tk, object):
 
         # Creating obstacles themselves
         # Obstacles from 1 to 22
-        self.obstacle1 = self.canvas_widget.create_image(pixels * 3, pixels * 4, anchor='nw', image=self.obstacle2_object)
+        self.obstacle1 = self.canvas_widget.create_image(pixels * 2, pixels * 1, anchor='nw', image=self.obstacle2_object)
         # Obstacle 2
         self.obstacle2 = self.canvas_widget.create_image(0, pixels * 2, anchor='nw', image=self.obstacle6_object)
         # Obstacle 3
         self.obstacle3 = self.canvas_widget.create_image(pixels, 0, anchor='nw', image=self.obstacle5_object)
         # Obstacle 4
-        self.obstacle4 = self.canvas_widget.create_image(pixels * 3, pixels * 2, anchor='nw', image=self.obstacle2_object)
+        self.obstacle4 = self.canvas_widget.create_image(pixels * 2, pixels * 2, anchor='nw', image=self.obstacle2_object)
         # Obstacle 5
         self.obstacle5 = self.canvas_widget.create_image(pixels * 4, 0, anchor='nw', image=self.obstacle12_object)
         # Obstacle 6
-        self.obstacle6 = self.canvas_widget.create_image(pixels * 5, pixels * 3, anchor='nw', image=self.obstacle7_object)
+        self.obstacle6 = self.canvas_widget.create_image(pixels * 1, pixels * 3, anchor='nw', image=self.obstacle7_object)
         # Obstacle 7
-        self.obstacle7 = self.canvas_widget.create_image(pixels * 7, pixels * 3, anchor='nw', image=self.obstacle9_object)
+        self.obstacle7 = self.canvas_widget.create_image(pixels * 2, pixels * 3, anchor='nw', image=self.obstacle9_object)
         # Obstacle 8
         self.obstacle8 = self.canvas_widget.create_image(pixels * 6, pixels, anchor='nw', image=self.obstacle10_object)
         # Obstacle 9
-        self.obstacle9 = self.canvas_widget.create_image(pixels * 5, pixels * 5, anchor='nw', image=self.obstacle4_object)
+        self.obstacle9 = self.canvas_widget.create_image(pixels * 5, pixels * 4, anchor='nw', image=self.obstacle4_object)
         # Obstacle 10
         self.obstacle10 = self.canvas_widget.create_image(pixels * 6, pixels * 5, anchor='nw', image=self.obstacle4_object)
         # Obstacle 11
@@ -161,7 +161,7 @@ class Environment(tk.Tk, object):
         # Final Point
         img_flag = Image.open("images/flag.png")
         self.flag_object = ImageTk.PhotoImage(img_flag)
-        self.flag = self.canvas_widget.create_image(pixels * 6, pixels * 6, anchor='nw', image=self.flag_object)
+        self.flag = self.canvas_widget.create_image(pixels * 5, pixels * 5, anchor='nw', image=self.flag_object)
 
         # Uploading the image of Mobile Robot
         img_robot = Image.open("images/agent1.png")
